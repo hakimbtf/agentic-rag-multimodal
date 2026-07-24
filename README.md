@@ -1,3 +1,14 @@
+---
+title: Agentic RAG Multimodal Document Intelligence
+emoji: 🤖
+colorFrom: indigo
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.25.0
+app_file: app.py
+pinned: false
+---
+
 # Agentic RAG & Multimodal Document Intelligence 🤖
 
 Production-grade **Agentic Retrieval-Augmentation Generation (RAG)** engine featuring **LangGraph multi-agent state machines**, hybrid vector retrieval (dense semantic embeddings + BM25 sparse keyword search), and self-correcting RAG evaluation loops.
@@ -47,7 +58,7 @@ streamlit run app.py
 
 ---
 
-## 🐳 Docker Deployment
+## 🐳 Docker & Cloud Deployment
 
 ```bash
 docker build -t agentic-rag-app .
